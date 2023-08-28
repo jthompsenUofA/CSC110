@@ -9,7 +9,7 @@ def triangle_area(a,b,c):
     return area
 
 def circle_area(radius):
-    area = 3.1415 * radius ** 2
+    area = 3.1415 * (radius ** 2)
     print(area)
     return area
 
