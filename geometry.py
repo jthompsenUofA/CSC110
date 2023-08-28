@@ -1,5 +1,3 @@
-import math
-
 def triangle_area(a,b,c):
     s = (a+b+c)/2
     sa = s-a
@@ -23,11 +21,7 @@ def trapezoid_area(base_1, base_2, height):
     return area
 
 
-def rectange_area(base, height):
+def rectangle_area(base, height):
     area = base * height
     print(area)
     return area
-    
-rectange_area(5,4)
-triangle_area(5,5,5)
-circle_area(50)
