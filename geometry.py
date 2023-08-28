@@ -3,14 +3,14 @@ def triangle_area(a,b,c):
     sa = s-a
     sb = s-b
     sc = s-c
-    sofeverything = s*sa*b*sc
+    sofeverything = s*sa*sb*sc
     area = sofeverything **.5
     print(area)
     return area
 
 def circle_area(radius):
     squared = radius ** 2
-    area = 3.145 * squared
+    area = 3.1415 * squared
     print(area)
     return area
 
