@@ -15,7 +15,8 @@ def circle_area(radius):
 
 def trapezoid_area(base_1, base_2, height):
     base=base_1+base_2
-    area = .5*base*height
+    properarea = .5*base*height
+    area =  properarea.round(2)
     print(area)
     return area
 
