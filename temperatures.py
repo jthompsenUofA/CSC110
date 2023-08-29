@@ -1,10 +1,12 @@
 def celsius_to_fahrenheit(celsius):
-    out = (celsius * 1.8) + 32
+    calc = (celsius * 1.8) + 32
+    out = round(calc, 2)
     print(out)
     return out
 
 def fahrenheit_to_celsius(fahrenheit):
-    out = (fahrenheit - 32) * (5/9)
+    calc = (fahrenheit - 32) * (5/9)
+    out = round(calc, 2)
     print(out)
     return out
 
