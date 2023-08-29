@@ -9,14 +9,14 @@ def triangle_area(a,b,c):
     return area
 
 def circle_area(radius):
-    area = 3.1415 * (radius ** 2)
+    properarea = 3.1415 * (radius ** 2)
+    area = round(properarea, 2)
     print(area)
     return area
 
 def trapezoid_area(base_1, base_2, height):
     base=base_1+base_2
-    properarea = .5*base*height
-    area =  properarea.round(2)
+    area = .5*base*height
     print(area)
     return area
 
