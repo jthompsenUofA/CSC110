@@ -1,5 +1,6 @@
 def feet_to_inches(feet):
-    out = feet * 12
+    calc = feet * 12
+    out = round(calc)
     print(out)
     return out
 
